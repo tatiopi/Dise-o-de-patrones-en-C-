@@ -53,7 +53,8 @@ namespace Factories
         //}
 
         // ahora lo hacemos privado!
-        public Point (double x , double y)
+        //public Point (double x , double y)
+        private Point (double x , double y)
         {
             this.x = x;
             this.y = y;
